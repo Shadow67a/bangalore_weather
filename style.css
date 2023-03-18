@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Rajdhani:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
+body {
+  background: white;
+  overflow: hidden;
+  align-items: center;
+}
+
+.container {
+  height: 600px;
+  width: 350px;
+  background: white;
+  border-radius: 30px;
+  position: absolute;
+  left: 35vw;
+  -webkit-box-shadow: 10px 10px 49px 0px rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 10px 10px 49px 0px rgba(0, 0, 0, 0.19);
+  box-shadow: 10px 10px 49px 0px rgba(0, 0, 0, 0.19);
+  overflow: hidden;
+}
+
+.temp {
+  font-family: "Cabin", sans-serif;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: bold;
+  font-size: 100px;
+  position: relative;
+  left: 4%;
+  top: 5%;
+}
+
+.illustration {
+  height: 260px;
+  width: 800px;
+  position: relative;
+  left: -86%;
+  top: 25%;
+  background: url("illustration.png");
+}
+
+.area {
+  font-family: "Cabin", sans-serif;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 30px;
+  font-weight: bolder;
+  position: relative;
+  right: -5%;
+  top: 26%;
+}
+
+.details {
+  font-family: "Quicksand", sans-serif;
+  font-size: 25px;
+  position: relative;
+  top: -45%;
+  left: 3%;
+}
